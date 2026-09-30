@@ -1,0 +1,8 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>select</title>
+	<style>
+		.s0 { fill: #6d8aca } 
+	</style>
+	<path id="Фигура 1" class="s0" d="m776 512v261h-100v-261zm0 161v100h-261v-100zm-743-382v-261h100v261zm0-161v-100h261v100z"/>
+	<path id="Фигура 1 copy" class="s0" d="m294 773h-261v-100h261zm-161 0h-100v-261h100zm382-743h261v100h-261zm161 0h100v261h-100z"/>
+</svg>

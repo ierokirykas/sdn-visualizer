@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<Network>
+	<Hosts>
+		<Host x="346.0" y="249.0" ip="10.0.0.1" mac="00:00:00:00:00:01"/>
+		<Host x="736.0" y="271.0" ip="10.0.0.2" mac="00:00:00:00:00:02"/>
+		<Host x="980.0" y="314.0" ip="10.0.0.3" mac="00:00:00:00:00:03"/>
+	</Hosts>
+	<Switches>
+		<Switch x="371.0" y="459.0"/>
+		<Switch x="751.0" y="479.0"/>
+	</Switches>
+	<Controllers>
+		<Controller x="490.0" y="619.0" ip="127.0.0.1" port="6653"/>
+	</Controllers>
+	<SSLinks>
+		<Link node1="s1" node2="h1" bandwidth="1.0" delay="1.0" loss="0.0"/>
+		<Link node1="s2" node2="h2" bandwidth="1.0" delay="1.0" loss="0.0"/>
+		<Link node1="s2" node2="h3" bandwidth="1.0" delay="1.0" loss="0.0"/>
+	</SSLinks>
+	<CSLinks>
+		<Link node1="c0" node2="s1"/>
+		<Link node1="c0" node2="s2"/>
+	</CSLinks>
+	<Texts/>
+</Network>
